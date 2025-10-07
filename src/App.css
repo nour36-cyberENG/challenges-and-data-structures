@@ -1,6 +1,10 @@
 .App {
   text-align: center;
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding: 20px;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +39,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App h1 {
+  color: #333;
+  margin-bottom: 30px;
 }

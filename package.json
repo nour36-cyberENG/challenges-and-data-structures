@@ -1,0 +1,12 @@
+{
+  "name": "binary-tree",
+  "version": "1.0.0",
+  "description": "Binary Tree and BST implementation",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}

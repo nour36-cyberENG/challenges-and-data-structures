@@ -1,0 +1,5 @@
+/* Compatibility alias: some imports reference the misspelled "LikUsers.css".
+   This file forwards to the correctly named LinkUsers.css to avoid build errors.
+   Remove once all imports use the correct filename. */
+
+@import './LinkUsers.css';

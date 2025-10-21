@@ -1,0 +1,69 @@
+.user-card{
+  background: #fff;
+  padding: 18px 16px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 30px rgba(15,23,42,0.06);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.user-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 18px 50px rgba(15,23,42,0.09);
+}
+
+.user-card img{
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  border: 4px solid rgba(13,110,253,0.08);
+}
+
+.user-card h3{
+  margin: 6px 0 4px 0;
+  color: #0f172a;
+  font-size: 1.05rem;
+  letter-spacing: -0.2px;
+}
+
+.email{
+  color: #556073;
+  font-size: 0.95rem;
+}
+
+.card-actions{
+  margin-top: 12px;
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.card-actions button, .card-actions .view-profile-link{
+  padding: 8px 12px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: transform .12s ease, box-shadow .12s ease, opacity .12s ease;
+}
+
+.card-actions button{
+  background: linear-gradient(90deg,#0d6efd,#6610f2);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(13,110,253,0.12);
+}
+
+.card-actions button:hover{transform:translateY(-2px);opacity:0.98}
+
+.card-actions .view-profile-link{
+  display:inline-flex;align-items:center;gap:8px;background:transparent;color:#0d6efd;text-decoration:none;padding:8px 10px;border-radius:999px;border:1px solid rgba(13,110,253,0.12);
+}
+
+.card-actions .view-profile-link:hover{background:rgba(13,110,253,0.04);box-shadow:0 8px 20px rgba(13,110,253,0.06)}
